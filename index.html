@@ -1,0 +1,33 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+  <title>五子棋</title>
+</head>
+<link rel="stylesheet" href="css/index.css" >
+<body>
+  <div class='es'>
+    <canvas id="canvas" width="600" height="600"></canvas>
+  </div>
+
+<audio src="music/024.wav" id='black_play'></audio>
+<audio src="music/022.wav" id='white_play'></audio>
+<span id='save'>保存棋谱</span>
+<div class="fengmian">
+  <div class="load">
+    <div class="load_inner"></div>
+  </div>
+</div>
+<div class="box">
+       <div class="xuanze">
+         <span id='tishi'><i></i></span>
+         <span class="chongxin"><i>再来一局</i></span>
+         <span class="qipu"><i>生成棋谱</i></span>
+         <span id='close'>❌</span>
+       </div>
+</div>
+
+  <script src='bower_components\jquery\dist\jquery.min.js'></script>
+  <script src="js/index.js"></script>
+</body>
+</html>
